@@ -38,8 +38,5 @@ do
   fi
     
 done
-# Read data from games.csv file and insert into the database
-cat games.csv | while IFS="," read YEAR ROUND WINNER OPPONENT WINNER_GOALS OPPONENT_GOALS;
-do
- 
-done
+
+
